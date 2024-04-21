@@ -20,7 +20,6 @@ sudo dnf install gnome-tweaks -y
 # Cascadia code font install 
 sudo dnf install cascadia-code-fonts -y
 
-
 # Importing MicroSoft GPG Key
 sudo rpm --import https://packages.microsoft.com/keys/microsoft.asc
 
