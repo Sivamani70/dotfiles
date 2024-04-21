@@ -7,8 +7,10 @@ sudo dnf update -y && sudo dnf upgrade -y && sudo dnf autoremove -y
 git config --global user.name "sivamani70"
 git config --global user.email "sivamani.r70@gmail.com"
 git config --global init.defaultBranch "main"
+git config --global core.editor "code --wait"
 
-
+# VIM install
+sudo dnf install vim-enhanced -y
 # Installing Google-Chorme
 sudo dnf install google-chrome-stable -y
 
@@ -37,3 +39,5 @@ sudo dnf update
 sudo dnf config-manager --add-repo https://packages.microsoft.com/yumrepos/edge
 sudo dnf install microsoft-edge-stable -y
 
+# Installing powershell
+sudo dnf install https://github.com/PowerShell/PowerShell/releases/download/v7.4.2/powershell-7.4.2-1.rh.x86_64.rpm -y
